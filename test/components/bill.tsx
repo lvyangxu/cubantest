@@ -1,5 +1,5 @@
 import { Button, Card, DatePicker, Descriptions, Empty, Form, InputNumber, Table } from 'antd'
-import * as dayjs from 'dayjs'
+import dayjs from 'dayjs'
 import * as React from 'react'
 import { calcMonthlyBills, monthlyBills2PeriodBills } from '../../src'
 import { MonthlyBill, PeriodBill } from '../../src/type'

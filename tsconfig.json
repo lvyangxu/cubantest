@@ -4,6 +4,7 @@
     "declaration": true,
     "skipLibCheck": true,
     "strictNullChecks": false,
+    "esModuleInterop": true,
     "lib": [
       "ESNext","dom"
     ],
