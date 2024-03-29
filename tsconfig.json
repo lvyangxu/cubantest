@@ -1,18 +1,21 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es2020",
-    "sourceMap": false,
+    "sourceMap": true,
+    "declaration": true,
     "skipLibCheck": true,
+    "strictNullChecks": false,
     "lib": [
-      "es2020",
-      "dom"
+      "ESNext","dom"
     ],
-    "jsx": "react"
+    "jsx": "react",
+    "outDir": "./dist"
   },
   "include": [
-    "./src/*.tsx",
-    "./test/*.tsx", "src/index.ts", "src/type.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "test/**/*.tsx",
+    "test/**/*.d.ts",
+    "*.ts"
   ],
   "exclude": [
     "node_modules"
