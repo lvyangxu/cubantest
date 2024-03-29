@@ -1,0 +1,11 @@
+{
+    "clearMocks": true,
+    "coverageDirectory": "coverage",
+    "testEnvironment": "node",
+    "projects": [
+        {
+            "displayName": "test",
+            "testMatch": ["<rootDir>/test/**/*.spec.ts","<rootDir>/test/**/*.spec.tsx"]
+        }
+    ]
+}

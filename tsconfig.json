@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "jsx": "react"
+  },
+  "include": [
+    "./src/*.tsx",
+    "./test/*.tsx", "src/index.ts", "src/type.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
